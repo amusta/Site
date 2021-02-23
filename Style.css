@@ -1,0 +1,86 @@
+
+.topright{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+{
+    box-sizing: border-box;
+}
+
+
+
+
+
+form.example input[type=text] {
+
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+
+    width: 10%;
+    background: #f1f1f1;
+
+}
+form.example button {
+
+    width: 3%;
+    padding: 10px;
+    background: greenyellow;
+    color: black;
+    font-size: 17px;
+    border: 1px solid grey;
+    cursor: pointer;
+
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
+
+
+
+
